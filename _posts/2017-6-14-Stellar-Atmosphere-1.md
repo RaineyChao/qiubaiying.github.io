@@ -19,7 +19,7 @@ tag:
 
    $$L=4\pi R^{2}\sigma T^{4}$$
 
-   **亮度**$I$：在地球上单位时间单位面积接收到的天体的辐射量。（会受星际物质的吸收和散射影响）
+   **亮度**$$I$$：在地球上单位时间单位面积接收到的天体的辐射量。（会受星际物质的吸收和散射影响）
 
    $$I=\frac{L}{4\pi d^{2}}$$
 
@@ -54,3 +54,67 @@ tag:
    $$\log \left(\frac{L}{L_{\odot}}\right)=-0.4\left(M_{bol}-M_{bol,\odot}\right)$$
 
 4. **色指数**：两种颜色的星等差。
+
+### 第二节 恒星的有效温度
+
+1. **黑体辐射**：
+
+   当一个辐射体是热辐射源时，其辐射遵循Planck黑体辐射定律
+
+   $$B_{\nu}(T)=\frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}$$
+
+   瑞利-金斯近似：当$$\frac{h\nu}{kT}\ll1$$时，$$e^{h\nu/kT}\approx1+h\nu/kT$$，因此
+
+   $$B_{\nu}\left(T\right)=\frac{2k\nu^{2}T}{c^{2}}=\frac{2ckT}{\lambda^{4}}$$
+
+   维恩近似：当$$\frac{h\nu}{kT}\gg1$$时，$$e^{h\nu/kT}-1\approx e^{h\nu/kT}$$，因此
+
+   $$B_{\nu}\left(T\right)=\frac{2h\nu^{3}}{c^{2}}e^{-\frac{h\nu}{kT}}=\frac{2hc}{\lambda^{3}}e^{-\frac{hc}{\lambda kT}}$$
+
+   **维恩定律**：
+
+   $$\lambda_{max}T=Const.$$
+
+2. **有效温度**：
+
+   对Planck公式积分，有
+
+   $$B\left(T\right)=\int^{\infty}_{0} \frac{2h\nu^{3}}{c^{2}}\left[e^{\frac{h\nu}{kT}}-1\right]^{-1}d\nu=\frac{2k^{4}T^{4}}{c^{2}h^{3}}\int^{\infty}_{0}\frac{x^{3}}{e^{x}-1}dx=\frac{2k^{4}T^{4}}{c^{2}h^{3}}\cdot \frac{\pi^{4}}{15}$$
+
+   令$$\sigma=\frac{2\pi^{5}k^{4}}{15c^{2}h^{3}}$$，则有
+
+   $$B\left(T\right)=\frac{\sigma}{\pi}T^{4}$$
+
+   **温度越高的辐射源，其辐射峰值频率越高**。
+
+   <div align=center>
+
+   <img src="../Figures/Stellar-Atmosphere/黑体辐射.png" width="50%"/>
+
+   </div>
+
+   将恒星的辐射等价为黑体辐射（实际并不遵守），并定义有效温度
+
+   $$L=4\pi R^{2}\sigma T^{4}_{eff}$$
+
+### 第三节 恒星的分类
+
+1. 光谱分类：
+
+   - 正常恒星光谱由**连续谱**和**吸收线**组成。连续谱来自于较热的致密的恒星内部，吸收线来自于较冷的稀薄的恒星大气。
+
+
+   - 恒星光谱包含恒星性质的丰富信息，如**表面温度**、**质量**、**半径**、**光度**、**化学组成**等。
+   - 光谱型：O、B、A、F、G、K、M
+
+2. 光度型和MK分类法
+
+### 第四节 H-R图
+
+1. 赫罗图：将恒星光度$$L$$对其表面有效温度$$T_{eff}$$所作的图。H-R图反应了恒星光度和有效温度之间的关系，总结了恒星的许多观测性质，是研究恒星结构演化的重要方法。
+
+   <div align=center>
+
+   <img src="../Figures/Stellar-Atmosphere/赫罗图.png" width="70%"/>
+
+   </div>
