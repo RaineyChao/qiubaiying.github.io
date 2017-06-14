@@ -56,13 +56,12 @@ tag:
 
 10. **瑞利-金斯公式**：
 
- $$B_{\nu}\left(T\right)=\frac{2k\nu^{2}T}{c^{2}}=\frac{2ckT}{\lambda^{4}}$$
+   $$B_{\nu}\left(T\right)=\frac{2k\nu^{2}T}{c^{2}}=\frac{2ckT}{\lambda^{4}}$$
 
 11. 普朗克量子假设、黑体辐射公式：
 
-    - 能量分离不连续
+    {0}. 能量分离不连续
 
-
-    - Planck公式
+    {0}. Planck公式
 
       $$B_{\nu}(T)=\frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}$$
