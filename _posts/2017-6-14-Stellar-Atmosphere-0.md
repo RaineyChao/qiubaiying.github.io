@@ -58,9 +58,9 @@ tag:
 
   $$B_{\nu}\left(T\right)=\frac{2k\nu^{2}T}{c^{2}}=\frac{2ckT}{\lambda^{4}}$$
 
-
 11. 普朗克量子假设：能量分离不连续
 
 12. Planck公式
 
-  $$B_{\nu}(T)=\frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}$$
+   $$B_{\nu}(T)=\frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}$$
+
