@@ -6,7 +6,7 @@
 
 2. **单色辐射强度**：描述物体辐射本领的物理量。
 
-   $$I_{\lambda}\left(T\right)=\frac{dE_{\lambda}}{d\lambda}$$
+   \[I_{\lambda}\left(T\right)=\frac{dE_{\lambda}}{d\lambda}\]
 
    表示在一定温度$T$下，单位时间内从物体表面单位面积上波长在$\lambda$附近单位波长间隔内辐射出的能量。
 
