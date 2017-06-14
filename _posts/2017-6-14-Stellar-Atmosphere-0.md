@@ -8,13 +8,13 @@
 
    $$I_{\lambda}\left(T\right)=\frac{dE_{\lambda}}{d\lambda}$$
 
-   表示在一定温度$T$下，单位时间内从物体表面单位面积上波长在$\lambda$附近单位波长间隔内辐射出的能量。
+   表示在一定温度$$T$$下，单位时间内从物体表面单位面积上波长在$$\lambda$$附近单位波长间隔内辐射出的能量。
 
 3. **辐射强度**：描述物体在温度T时向外辐射本领的物理量，单色辐射强度对频率的积分。
-   $$
-   I\left(T\right)=\int^{\infty}_{0}I_{\lambda}\left(T\right)d\lambda
-   $$
-   表示在一定温度$T$下，单位时间内从物体表面单位面积上全波段范围内辐射出的能量。
+
+   $$I\left(T\right)=\int^{\infty}_{0}I_{\lambda}\left(T\right)d\lambda$$
+
+   表示在一定温度$$T$$下，单位时间内从物体表面单位面积上全波段范围内辐射出的能量。
 
 4. **热平衡辐**射：物体辐射的能量等于在同一时间内所吸收的能量时，热辐射过程达到热平衡。
 
@@ -37,25 +37,21 @@
    - **绝对黑体**：能够吸收外来一切电磁波辐射而毫无反射的物体。
 
 8. **斯特藩-玻耳兹曼定律**：
-   $$
-   I\left(T\right)=\int^{\infty}_{0}I_{\lambda}\left(T\right)d\lambda=\sigma T^{4}
-   $$
+
+   $$I\left(T\right)=\int^{\infty}_{0}I_{\lambda}\left(T\right)d\lambda=\sigma T^{4}$$
 
 9. **维恩位移定律**：
-   $$
-   \lambda_{max}T=Const.
-   $$
+
+   $$\lambda_{max}T=Const.$$
 
 10. **瑞利-金斯公式**：
-    $$
-    B_{\nu}\left(T\right)=\frac{2k\nu^{2}T}{c^{2}}=\frac{2ckT}{\lambda^{4}}
-    $$
+
+    $$B_{\nu}\left(T\right)=\frac{2k\nu^{2}T}{c^{2}}=\frac{2ckT}{\lambda^{4}}$$
 
 11. 普朗克量子假设、黑体辐射公式：
 
     - 能量分离不连续
 
     - Planck公式
-      $$
-      B_{\nu}(T)=\frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}
-      $$
+
+      $$B_{\nu}(T)=\frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}$$
