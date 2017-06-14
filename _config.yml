@@ -1,6 +1,6 @@
 # Site settings
 title: Rainey's Blog
-SEOTitle: 赵瑞宁的博客 | Rainey's Blog
+SEOTitle: Rainey's Blog
 header-img: img/post-bg-desk.jpg
 email: RaineyChao@gmail.com
 description: "每个胜利背后都有许多尝试"
@@ -12,13 +12,13 @@ github_repo: "https://github.com/raineychao/raineychao.github.io.git" # you code
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Dare Mighty Things!"
-sidebar-avatar: img/avatar-by.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/ProfilePhoto.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-# weibo_username:     
+# weibo_username:
 zhihu_username:     RuiningZhao
 github_username:    raineychao
 facebook_username:  rainey.chao
