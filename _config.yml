@@ -1,13 +1,13 @@
 # Site settings
 title: Rainey's Blog
-SEOTitle: 柏荧的博客 | BY Blog
+SEOTitle: 赵瑞宁的博客 | Rainey's Blog
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
+email: RaineyChao@gmail.com
 description: "每个胜利背后都有许多尝试"
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+keyword: "Rainey, Rainey's Blog, Rainey Chao, 赵瑞宁的博客, ruiningzhao, 赵瑞宁, Astronomy, Astrophysics, Gravitational Waves"
+url: "http://raineychao.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/raineychao/raineychao.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
