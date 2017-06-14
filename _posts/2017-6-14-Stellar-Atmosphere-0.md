@@ -1,8 +1,15 @@
 ---
 
+Title: 恒星大气
+
+date: 2017-06-14
+
+categories: Lecture Notes
+
 tag:
 
 - Stellar Atmosphere
+- Stellar Physics
 
 ---
 
