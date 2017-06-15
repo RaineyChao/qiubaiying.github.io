@@ -51,25 +51,25 @@ header-img: "img/post-bg-universe.jpg"
     function _render(){
         var _hash = window.location.hash;
         // en
-        if(_hash == "#en"){
+        if(_hash == "#zh"){
             $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
+            $zh.style.display = "block";
+            $en.style.display = "none";
         // zh by default
         }else{
             // not trigger onChange, otherwise cause a loop call.
             $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
+            $en.style.display = "block";
+            $zh.style.display = "none";
         }
     }
 
     // handle select change
     function onLanChange(index){
         if(index == 0){
-            window.location.hash = "#zh"
-        }else{
             window.location.hash = "#en"
+        }else{
+            window.location.hash = "#zh"
         }
     }
 
