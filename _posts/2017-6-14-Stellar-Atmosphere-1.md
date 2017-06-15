@@ -1,11 +1,7 @@
 ---
-
 Title: 恒星大气
-
 date: 2017-06-14
-
 tag:
-
 - Stellar Atmosphere
 - Stellar Physics
 
