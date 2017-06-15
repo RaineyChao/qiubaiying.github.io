@@ -1,3 +1,16 @@
+---
+
+Title: 恒星大气
+
+date: 2017-6-15
+
+Tag:
+
+- Stellar Atmosphere
+- Stellar Physics
+
+---
+
 ## 第二章 辐射转移理论基础
 
 ### 第一节 热动平衡状态
