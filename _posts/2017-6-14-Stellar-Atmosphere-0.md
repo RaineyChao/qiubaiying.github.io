@@ -1,14 +1,10 @@
 ---
-
 Title: 恒星大气
-
+layout: keynote
 date: 2017-06-14
-
 tag:
-
 - Stellar Atmosphere
 - Stellar Physics
-
 ---
 
 ## 预备知识
@@ -72,4 +68,3 @@ tag:
 - **Planck公式**：
 
   $$B_{\nu}(T)=\frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}$$
-
