@@ -1,6 +1,6 @@
 ---
 Title: 恒星大气
-layout: default
+layout: post
 date: 2017-06-14
 tag:
 - Stellar Atmosphere
