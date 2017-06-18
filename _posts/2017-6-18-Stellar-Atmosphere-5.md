@@ -33,57 +33,58 @@ Tag:
 
      $$\left\{\begin{aligned}&\frac{\eta_{\nu}}{\kappa_{\nu}}=B_{\nu}\left(T\right)\\&S_{\nu}(\tau)=B_{\nu}(T(\tau))\\&B_{\nu}(T)=\frac{2h\nu^{3}}{c^{2}}\frac{1}{e^{h\nu/kT}-1}\end{aligned}\right.$$
 
+2. **模型优点：**
 
-1. **模型优点：**
-   - 基本方程组之间的相关性被忽略
-   - 方程可单独求解，计算简单
+   {0}. 基本方程组之间的相关性被忽略
+   {0}. 方程可单独求解，计算简单
 
 
 1. **辐射转移方程通解：**
 
     已知辐射转移方程
 
-   $$\mu\frac{dI_{\nu}}{d\tau_{\nu}}=I_{\nu}-S_{\nu}$$
+    $$\mu\frac{dI_{\nu}}{d\tau_{\nu}}=I_{\nu}-S_{\nu}$$
 
-​	由于在灰大气近似下不透明度与频率无关，即有
+    由于在灰大气近似下不透明度与频率无关，即有
 
-​	$$\mu\frac{dI}{d\tau}-I=-S$$
+    $$\mu\frac{dI}{d\tau}-I=-S$$
 
-​	其中$$I=\int^{\infty}_{0}I_{\nu}d\nu$$，$$S=\int^{\infty}_{0}S_{\nu}d\nu$$。两侧同乘积分因子$$e^{-\tau/\mu}$$
+    其中$$I=\int^{\infty}_{0}I_{\nu}d\nu$$，$$S=\int^{\infty}_{0}S_{\nu}d\nu$$。两侧同乘积分因子$$e^{-\tau/\mu}$$
 
-​	$$\frac{d}{d\tau}\left(Ie^{-\tau/\mu}\right)=-\frac{1}{\mu}Se^{-\tau/\mu}$$
+    $$\frac{d}{d\tau}\left(Ie^{-\tau/\mu}\right)=-\frac{1}{\mu}Se^{-\tau/\mu}$$
 
-​	积分可得
+    积分可得
 
-​	$$Ie^{-\tau/\mu}\Bigg|^{\tau_{2}}_{\tau_{1}}=-\int^{\tau_{2}}_{\tau_{1}}S\left(t\right)e^{-\tau/\mu}\frac{dt}{\mu}$$
+    $$Ie^{-\tau/\mu}\Bigg|^{\tau_{2}}_{\tau_{1}}=-\int^{\tau_{2}}_{\tau_{1}}S\left(t\right)e^{-\tau/\mu}\frac{dt}{\mu}$$
 
-​	即
+    即
 
-​	$$I\left(\tau_{1},\mu\right)=I\left(\tau_{2},\mu\right)e^{-\frac{\tau_{2}-\tau_{1}}{\mu}}+\int^{\tau_{2}}_{\tau_{1}}S\left(t\right)e^{-\frac{t-\tau_{1}}{\mu}}\frac{dt}{\mu}$$
+    $$I\left(\tau_{1},\mu\right)=I\left(\tau_{2},\mu\right)e^{-\frac{\tau_{2}-\tau_{1}}{\mu}}+\int^{\tau_{2}}_{\tau_{1}}S\left(t\right)e^{-\frac{t-\tau_{1}}{\mu}}\frac{dt}{\mu}$$
 
-​	该式为辐射转移方程通解。
+    该式为辐射转移方程通解。
 
-​	<img src="/Figures/Stellar-Atmosphere/大气辐射.png" width="50%">
+    <img src="/Figures/Stellar-Atmosphere/大气辐射.png" width="50%">
 
-​	当$$\mu\ge0$$时，
+    当$$\mu\ge0$$时，
 
-​	$$I\left(\tau,\mu\right)=lim_{\tau_{2}\rightarrow\infty}I\left(\tau_{2},\mu\right)e^{-\frac{\tau_{2}-\tau}{\mu}}+\int^{\infty}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu}$$
+    $$I\left(\tau,\mu\right)=lim_{\tau_{2}\rightarrow\infty}I\left(\tau_{2},\mu\right)e^{-\frac{\tau_{2}-\tau}{\mu}}+\int^{\infty}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu}$$
 
-​	利用边界条件$$lim_{\tau_{2}\rightarrow\infty}I\left(\tau_{2},\mu\right)=0,0\le\mu\le1$$
+    利用边界条件$$lim_{\tau_{2}\rightarrow\infty}I\left(\tau_{2},\mu\right)=0,0\le\mu\le1$$
 
-​	$$I\left(\tau,\mu\right)=\int^{\infty}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu},0\le\mu\le1$$	
+    $$I\left(\tau,\mu\right)=\int^{\infty}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu},0\le\mu\le1$$	
 
-​	当$$\mu\le0$$时，
+    当$$\mu\le0$$时，
 
-​	$$I\left(\tau,\mu\right)=I\left(0,\mu\right)e^{-\frac{\tau}{\mu}}+\int^{0}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu}$$	
+    $$I\left(\tau,\mu\right)=I\left(0,\mu\right)e^{-\frac{\tau}{\mu}}+\int^{0}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu}$$	
 
-​	利用边界条件$$\tau=0,I\left(0,\mu\right)=0,-1\le\mu\le0$$
+    利用边界条件$$\tau=0,I\left(0,\mu\right)=0,-1\le\mu\le0$$
 
-​	$$I\left(\tau,\mu\right)=-\int^{\tau}_{0}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu},-1\le\mu\le0$$	
+    $$I\left(\tau,\mu\right)=-\int^{\tau}_{0}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu},-1\le\mu\le0$$	
 
-​	在恒星表面只考虑向外辐射$$\tau=\tau_{1}=0,\mu\ge0$$
+    在恒星表面只考虑向外辐射$$\tau=\tau_{1}=0,\mu\ge0$$
 
-​	$$I\left(0,\mu\right)=\int^{\infty}_{\tau}S\left(t\right)e^{-\frac{t}{\mu}}\frac{dt}{\mu}$$
+    $$I\left(0,\mu\right)=\int^{\infty}_{\tau}S\left(t\right)e^{-\frac{t}{\mu}}\frac{dt}{\mu}$$
+
 
 1. **平均辐射强度、辐射流和K-积分的表达式**
 

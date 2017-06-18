@@ -80,6 +80,9 @@ Tag:
    总辐射变化$$dI_{\nu}$$为
 
    $$\mu\frac{dI_{\nu}}{dz}=-\kappa_{\nu}I_{\nu}+\eta_{\nu}$$
+
+   即
+
    $$\mu\frac{dI_{\nu}}{d\tau_{\nu}}=I_{\nu}-\frac{\eta_{\nu}}{\kappa_{\nu}}$$
 
    其中$$d\tau_{\nu}=-\kappa_{\nu}dz$$。定义源函数$$S_{\nu}=\frac{\eta_{\nu}}{\kappa_{\nu}}$$，因此
