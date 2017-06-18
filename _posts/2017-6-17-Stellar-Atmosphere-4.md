@@ -47,7 +47,7 @@ Tag:
 
    $$n=n_{e}+\Sigma_{\alpha}\Sigma_{\beta}\Sigma_{i}n^{\alpha\beta}_{i}$$
 
-2. 元素$\alpha$的粒子数守恒方程
+2. 元素$$\alpha$$的粒子数守恒方程
 
    $$nX_{\alpha}=\Sigma_{\beta}\Sigma_{i}n^{\alpha\beta}_{i}$$
 
@@ -80,6 +80,7 @@ Tag:
    总辐射变化$$dI_{\nu}$$为
 
    $$\mu\frac{dI_{\nu}}{dz}=-\kappa_{\nu}I_{\nu}+\eta_{\nu}$$
+   即
    $$\mu\frac{dI_{\nu}}{d\tau_{\nu}}=I_{\nu}-\frac{\eta_{\nu}}{\kappa_{\nu}}$$
 
    其中$$d\tau_{\nu}=-\kappa_{\nu}dz$$。定义源函数$$S_{\nu}=\frac{\eta_{\nu}}{\kappa_{\nu}}$$，因此
