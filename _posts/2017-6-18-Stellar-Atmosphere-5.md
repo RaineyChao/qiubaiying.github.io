@@ -4,8 +4,7 @@ Title: 恒星大气
 
 Date: 2017-6-18
 
-Tag:
-
+tag:
 - Stellar Atmosphere
 - Stellar Physics
 
@@ -73,15 +72,15 @@ Tag:
 
     利用边界条件$$lim_{\tau_{2}\rightarrow\infty}I\left(\tau_{2},\mu\right)=0,0\le\mu\le1$$
 
-    $$I\left(\tau,\mu\right)=\int^{\infty}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu},0\le\mu\le1$$	
+    $$I\left(\tau,\mu\right)=\int^{\infty}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu},0\le\mu\le1$$
 
     当$$\mu\le0$$时，
 
-    $$I\left(\tau,\mu\right)=I\left(0,\mu\right)e^{-\frac{\tau}{\mu}}+\int^{0}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu}$$	
+    $$I\left(\tau,\mu\right)=I\left(0,\mu\right)e^{-\frac{\tau}{\mu}}+\int^{0}_{\tau}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu}$$
 
     利用边界条件$$\tau=0,I\left(0,\mu\right)=0,-1\le\mu\le0$$
 
-    $$I\left(\tau,\mu\right)=-\int^{\tau}_{0}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu},-1\le\mu\le0$$	
+    $$I\left(\tau,\mu\right)=-\int^{\tau}_{0}S\left(t\right)e^{-\frac{t-\tau}{\mu}}\frac{dt}{\mu},-1\le\mu\le0$$
 
     在恒星表面只考虑向外辐射$$\tau=\tau_{1}=0,\mu\ge0$$
 
