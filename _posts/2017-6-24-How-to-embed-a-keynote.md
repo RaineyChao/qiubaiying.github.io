@@ -6,7 +6,7 @@ tag:
 - Website
 iframe: https://www.icloud.com/keynote/08KF1etvBYNMTuB13VtoewxEw?embed=true
 ---
-
+## How to embed a keynote?
 1. Choose the layout: keynote.  
 2. Create a .key file on iCloud.  
 3. Share the file to anyone who gets the link and then get a url.  
