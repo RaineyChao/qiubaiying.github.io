@@ -1,5 +1,5 @@
 ---
-title: About-The-New-Year-in-A.-D.-1188
+title: About the New Year in A.D. 1188
 Date: 2017-6-21
 tag:
 - Calendar
