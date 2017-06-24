@@ -5,14 +5,14 @@ header-img: img/post-bg-universe.jpg
 email: RaineyChao@gmail.com
 description: "宇宙最不可理解之处，就在于它是可以理解的。"
 keyword: "Rainey, Rainey's Blog, Rainey Chao, 赵瑞宁的博客, ruiningzhao, 赵瑞宁, Astronomy, Astrophysics, Gravitational Waves"
-url: "http://raineychao.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://raineychao.github.io"                                    # your host, for absolute URL
+baseurl: ""                                                           # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/raineychao/raineychao.github.io.git" # you code repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: true                                                         # whether or not using Sidebar.
 sidebar-about-description: "Dare Mighty Things!"
-sidebar-avatar: img/ProfilePhoto.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/ProfilePhoto.jpg                                  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -51,28 +51,15 @@ markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
-
-
 # 评论系统
 # Disqus settings（https://disqus.com/）
 disqus_username: raineychao
 
-# 多说 将于2017年6月1日正式关停服务，建议使用 Disqus（http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241）
-# Duoshuo settings
-# duoshuo_username: qiubaiying
-# Share component is depend on Comment so we can NOT use share only.
-# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-
-
-
 # Analytics settings
-# Baidu Analytics
-# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: auto
+ga_track_id: 'UA-101605672-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
 
 
 
