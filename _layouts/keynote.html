@@ -18,6 +18,9 @@ layout: default
         height: 90%;
         border: 0;
     }
+    .header-iframe{
+        margin: 0 auto;
+    }
     /* Override Nav Style */
     {% if page.navcolor == "invert" %}
         .navbar-custom .nav li a,
@@ -29,6 +32,7 @@ layout: default
     {% endif %}
 </style>
 <header class="intro-header" >
+  <div class="header-iframe">
     <iframe src="{{page.iframe}}"/>
         <div class="container">
             <div class="row">
@@ -52,6 +56,7 @@ layout: default
             </div>
         </div>
     </iframe>
+  </div>
 </header>
 
 <!-- Post Content -->
