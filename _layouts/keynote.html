@@ -9,9 +9,9 @@ layout: default
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
         height: 500px;
         overflow: hidden;
+        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
 
     header iframe{
@@ -19,6 +19,9 @@ layout: default
         height: 90%;
         position: relative;
         border: 0;
+    }
+    .space{
+        height: 50px;
     }
 
     /* Override Nav Style */
@@ -32,7 +35,7 @@ layout: default
     {% endif %}
 </style>
 <header class="intro-header" >
-    <div class="space" height="50px"></div>
+    <div class="space"/></div>
     <iframe src="{{page.iframe}}"/>
         <div class="container">
             <div class="row">
