@@ -1,6 +1,6 @@
 ---
 
-Title: 恒星大气
+Title: Stellar Atmosphere 3
 
 Date: 2017-6-17
 

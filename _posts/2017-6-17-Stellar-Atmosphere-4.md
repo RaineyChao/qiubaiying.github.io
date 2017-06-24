@@ -1,6 +1,6 @@
 ---
 
-Title: 恒星大气
+title: Stellar Atmosphere 4
 
 Date: 2017-6-17
 

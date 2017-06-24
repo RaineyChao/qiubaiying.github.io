@@ -1,13 +1,9 @@
 ---
-
-Title: 恒星大气
-
+title: Stellar Atmosphere 6
 Date: 2017-6-18
-
 tag:
 - Stellar Atmosphere
 - Stellar Physics
-
 ---
 
 ## 第六章 谱线理论

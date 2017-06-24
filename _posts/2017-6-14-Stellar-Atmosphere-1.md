@@ -1,5 +1,5 @@
 ---
-Title: 恒星大气
+title: Stellar Atmosphere 1
 date: 2017-06-14
 tag:
 - Stellar Atmosphere
