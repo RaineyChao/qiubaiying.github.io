@@ -21,6 +21,12 @@ layout: default
         background: rgba(0,0,0, {{ page.header-mask }});
     }
     {% endif %}
+    header.iframe-header{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin: 0 auto;
+    }
 </style>
 <header class="intro-header" >
     <div class="header-mask"></div>
@@ -45,9 +51,11 @@ layout: default
             </div>
         </div>
     </div>
+    <div class="iframe-header">
+      <iframe src={{page.iframe}} width="640" height="500" frameborder="0" allowfullscreen="1" referrer="no-referrer"></iframe>
+    </div>
 </header>
 
-<iframe src="https://www.icloud.com/keynote/0Qec1-PPxDkz9whmEBGQwPi3w?embed=true" width="640" height="500" frameborder="0" allowfullscreen="1" referrer="no-referrer"></iframe>
 
 <!-- Post Content -->
 <article>
